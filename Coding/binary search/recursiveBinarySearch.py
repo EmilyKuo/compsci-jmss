@@ -1,5 +1,6 @@
 __author__ = 'lindam'
 
+#cat
 
 def binarySearch(target,mylist):
     if len(mylist)==0:
@@ -18,4 +19,4 @@ def binarySearch(target,mylist):
     else:
         return binarySearch(target,mylist[midpoint:])
 
-print (binarySearch(7,[-2,-1,0,1,2,3,4,5,6.5,7,8,9,10,11]))
+print (binarySearch(7,[-2,-1,0,1,2,3,4,5,6,5,7,8,9,10,11]))
